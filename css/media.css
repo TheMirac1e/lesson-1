@@ -1,0 +1,91 @@
+@media (max-width: 1230px) {
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        padding: 25px 0;
+    }
+    .header__row {
+        flex-wrap: wrap;
+    }
+    .about {
+        flex-wrap: wrap;
+    }
+    .dignity__list {
+        flex-wrap: wrap;
+    }
+    .screenshots {
+        flex-wrap: wrap;
+    }
+    .screenshots__item {
+        flex-wrap: nowrap;
+    }
+    .screenshots__info {
+        min-width: 100%;
+        padding-left: 10px;
+    }
+    .screenshots__img {
+        margin: 0 10px 10px 5px;
+        width: 150px;
+    }
+    .screenshots__img img {
+        max-width: 100%;
+    }
+    .buy-it__item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__row {
+
+    }
+    .header__img img {
+
+    }
+    .screenshots {
+        flex-wrap: wrap;
+    }
+    .screenshots__item {
+        max-width: 100%;
+    }
+    .screenshots__img{
+
+    }
+    .contacts {
+        flex-wrap: wrap;
+    }
+    .contacts__item {
+        min-width: 100%;
+    }
+    .contacts__item input {
+        width: 100%;
+    }
+    .contacts__item textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .screenshots__info_title {
+        font-size: 20px;
+    }
+    .screenshots__info_text {
+        padding: 5px;
+    }
+    .contacts__item input {
+        max-width: 300px;
+    }
+    .contacts__item textarea {
+        max-width: 300px;
+    }
+    .contacts__item {
+        margin-bottom: 40px;
+    }
+    .contacts__social i {
+        margin-top: 20px;
+        width: 50px;
+        height: 50px;
+    }
+}
